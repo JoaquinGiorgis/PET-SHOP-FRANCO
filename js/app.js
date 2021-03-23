@@ -33,7 +33,7 @@ function articulos(data, tipo, tarjetaProducto) {
     for (var i = 0; i < productos[`${tipo}`].length; i++) {
         var crearElemento = document.createElement('p')
 
-        crearElemento.innerHTML = `<div " id="margen" class="card ms-5 item" style="width: 18rem;">
+        crearElemento.innerHTML = `<div " id="margen" class="card ms-4 item" style="width: 18rem;">
     <img src="${productos[tipo][i]['imagen']}" class="card-img-top " alt="producto">
     <button type="button" id="valor" class="btn btn-success botonVerde">${"Precio: $"  + productos[tipo][i]['precio'] }</button> 
     <h3 id="tituloProducto" class="card-title ms-1"> ${productos[tipo][i]['nombre'] } </h3>
@@ -41,7 +41,6 @@ function articulos(data, tipo, tarjetaProducto) {
     <h6> ${"Stock disponible: " + productos[tipo][i]['stock'] + " articulos."  }</h6></div>
     <button type="button" class="btn btn-danger pocoStock">Poco Stock</button>
     <h6 class="ocultar"> ${productos[tipo][i]['_id']}</h6>
-    
     <div id="cover" class="card-body">
     <h6 class="descripcion">${ productos[tipo][i]['descripcion'] }</h6>
     <a href="# "  id="comprar" class="btn btn-dark comprar">AGREGAR AL CARRITO</a></div>`

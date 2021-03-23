@@ -33,8 +33,16 @@
         padding-top: 2vh;
     }
     
+    #valor {
+        width: 100%;
+    }
+    
     #botoncitos {
         padding-bottom: 1vh;
+    }
+    
+    .pocoStock {
+        width: 100%;
     }
     
     #info {
@@ -104,7 +112,6 @@
     
     #margen {
         margin-bottom: 15vh;
-        height: 60vh;
         margin-top: 1vh;
     }
     
@@ -114,6 +121,18 @@
     
     .cantidadP {
         font-size: 20px;
+    }
+    
+    @media (max-height:900px) {
+        .card {
+            height: 90vh !important;
+        }
+    }
+    
+    .card,
+    .item {
+        margin-left: 2vh !important;
+        margin-right: 2vh;
     }
     
     .item #cover {
@@ -148,8 +167,13 @@
     
     .descripcion {
         font-weight: bold;
-        font-size: 20px;
+        font-size: 1.2rem;
         text-align: center;
+    }
+    
+    .imgProducto {
+        width: 100%;
+        height: 35vh;
     }
     
     #tituloProducto {
@@ -157,11 +181,9 @@
         display: flex;
         justify-content: center;
         text-transform: uppercase;
-        font-size: 19px;
-    }
-    
-    #tituloObjeto {
-        margin-right: 6vh;
+        font-size: 1rem;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
     }
     
     .botonVerde {
@@ -171,10 +193,6 @@
     .cantidad {
         font-weight: bold;
         font-size: 20px;
-    }
-    
-    .servicios {
-        margin-left: 10vh;
     }
     
     .copy {
@@ -255,8 +273,5 @@
         .fotoproducto {
             width: 80px;
             height: 80px;
-        }
-        #margen {
-            margin-right: 6vh;
         }
     }
