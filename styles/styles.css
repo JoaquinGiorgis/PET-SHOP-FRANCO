@@ -113,7 +113,7 @@
     #margen {
         margin-bottom: 15vh;
         margin-top: 1vh;
-        height: 55vh;
+        height: 60vh;
     }
     
     .ocultar {
@@ -124,9 +124,9 @@
         font-size: 20px;
     }
     
-    @media (max-height:900px) {
+    @media (max-height:720px) {
         .card {
-            height: 75vh !important;
+            height: 85vh !important;
         }
     }
     
