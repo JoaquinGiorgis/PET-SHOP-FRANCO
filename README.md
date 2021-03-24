@@ -7,6 +7,7 @@ Una app desarrollada en dos semanas, realizando dailies diarias para poder resol
 - JavaScript
 - HTML5 
 - CSS3
+- Bootstrap
 
 # Expresiones de Gratitud 🎁
 Se agradece a Fernando Biaus por la mentoría y la dedicación. <br/>
